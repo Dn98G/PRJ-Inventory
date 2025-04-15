@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ExpenseForm from "./components/ExpenseForm";
-import ExpenseTable from "./components/ExpenseTable";
-import SearchBar from "./components/SearchBar";
+import ExpenseTable from "./components/expenseTable";
+import SearchBar from "./components/searchBar";
 
 const App = () => {
   const [expenses, setExpenses] = useState([]);
@@ -29,7 +29,7 @@ const App = () => {
     <div className="container">
       <h1 className="title">Expense Tracker</h1>
       <p className="subtitle">
-        Use this tracker to start monitoring your Expenses.
+        Start taking control of your finances with this tracker.
       </p>
       <div className="main">
         <div className="left">
